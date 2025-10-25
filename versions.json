@@ -1,37 +1,31 @@
 {
-  "23": {
-    "start": "2024-10-15",
+  "25": {
+    "start": "2025-10-15",
     "lts": "",
-    "maintenance": "2025-04-01",
-    "end": "2025-06-01",
+    "maintenance": "2026-04-01",
+    "end": "2026-06-01",
     "codename": "",
-    "alpine-default": "alpine3.21",
+    "alpine-default": "alpine3.22",
     "debian-default": "bookworm",
     "variants": {
-      "alpine3.20": [
+      "alpine3.21": [
         "amd64",
-        "arm32v6",
-        "arm32v7",
         "arm64v8",
         "s390x"
       ],
-      "alpine3.21": [
+      "alpine3.22": [
         "amd64",
-        "arm32v6",
-        "arm32v7",
         "arm64v8",
         "s390x"
       ],
       "bookworm": [
         "amd64",
-        "arm32v7",
         "arm64v8",
         "ppc64le",
         "s390x"
       ],
       "bookworm-slim": [
         "amd64",
-        "arm32v7",
         "arm64v8",
         "ppc64le",
         "s390x"
@@ -43,6 +37,71 @@
       "bullseye-slim": [
         "amd64",
         "arm64v8"
+      ],
+      "trixie": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "trixie-slim": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ]
+    }
+  },
+  "24": {
+    "start": "2025-05-06",
+    "lts": "2025-10-28",
+    "maintenance": "2026-10-20",
+    "end": "2028-04-30",
+    "codename": "",
+    "alpine-default": "alpine3.22",
+    "debian-default": "bookworm",
+    "variants": {
+      "alpine3.21": [
+        "amd64",
+        "arm64v8",
+        "s390x"
+      ],
+      "alpine3.22": [
+        "amd64",
+        "arm64v8",
+        "s390x"
+      ],
+      "bookworm": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "bookworm-slim": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "bullseye": [
+        "amd64",
+        "arm64v8"
+      ],
+      "bullseye-slim": [
+        "amd64",
+        "arm64v8"
+      ],
+      "trixie": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "trixie-slim": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
       ]
     }
   },
@@ -52,17 +111,17 @@
     "maintenance": "2025-10-21",
     "end": "2027-04-30",
     "codename": "jod",
-    "alpine-default": "alpine3.21",
+    "alpine-default": "alpine3.22",
     "debian-default": "bookworm",
     "variants": {
-      "alpine3.20": [
+      "alpine3.21": [
         "amd64",
         "arm32v6",
         "arm32v7",
         "arm64v8",
         "s390x"
       ],
-      "alpine3.21": [
+      "alpine3.22": [
         "amd64",
         "arm32v6",
         "arm32v7",
@@ -92,6 +151,18 @@
         "amd64",
         "arm32v7",
         "arm64v8"
+      ],
+      "trixie": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "trixie-slim": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
       ]
     }
   },
@@ -101,10 +172,10 @@
     "maintenance": "2024-10-22",
     "end": "2026-04-30",
     "codename": "iron",
-    "alpine-default": "alpine3.21",
+    "alpine-default": "alpine3.22",
     "debian-default": "bookworm",
     "variants": {
-      "alpine3.20": [
+      "alpine3.21": [
         "amd64",
         "arm32v6",
         "arm32v7",
@@ -112,7 +183,7 @@
         "ppc64le",
         "s390x"
       ],
-      "alpine3.21": [
+      "alpine3.22": [
         "amd64",
         "arm32v6",
         "arm32v7",
@@ -143,57 +214,18 @@
         "amd64",
         "arm32v7",
         "arm64v8"
-      ]
-    }
-  },
-  "18": {
-    "start": "2022-04-19",
-    "lts": "2022-10-25",
-    "maintenance": "2023-10-18",
-    "end": "2025-04-30",
-    "codename": "hydrogen",
-    "alpine-default": "alpine3.21",
-    "debian-default": "bookworm",
-    "variants": {
-      "alpine3.20": [
+      ],
+      "trixie": [
         "amd64",
-        "arm32v6",
-        "arm32v7",
         "arm64v8",
         "ppc64le",
         "s390x"
       ],
-      "alpine3.21": [
+      "trixie-slim": [
         "amd64",
-        "arm32v6",
-        "arm32v7",
         "arm64v8",
         "ppc64le",
         "s390x"
-      ],
-      "bookworm": [
-        "amd64",
-        "arm32v7",
-        "arm64v8",
-        "ppc64le",
-        "s390x"
-      ],
-      "bookworm-slim": [
-        "amd64",
-        "arm32v7",
-        "arm64v8",
-        "ppc64le",
-        "s390x"
-      ],
-      "bullseye": [
-        "amd64",
-        "arm32v7",
-        "arm64v8"
-      ],
-      "bullseye-slim": [
-        "amd64",
-        "arm32v7",
-        "arm64v8"
       ]
     }
   }
